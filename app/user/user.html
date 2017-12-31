@@ -1,7 +1,7 @@
 <div ng-repeat="user in $ctrl.users" class="row">
     <div class="col-md-12">
         <h4 class="text-center">
-            {{user.name}}
+            <a href="" title="{{user.email}}" ng-click="$ctrl.show(user.id)"> {{user.name}} </a>
         </h4>
     </div>
 </div>

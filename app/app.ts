@@ -33,6 +33,6 @@ export let app = module('app', [
     .component(HomeComponent.NAME, new HomeComponent())
     .component(UserComponent.NAME, new UserComponent())
     .service(UserService.NAME, UserService);
-element(document).ready( () => {
+element(document).ready(() => {
     bootstrap(document, ['app']);
 });
