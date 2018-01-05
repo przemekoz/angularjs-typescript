@@ -10,7 +10,7 @@ class UserController implements ng.IController {
     }
 
     public show(id: string): void {
-        console.log(id + '.')
+        console.log(id + '.');
     }
 }
 
